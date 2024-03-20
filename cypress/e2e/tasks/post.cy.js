@@ -1,5 +1,4 @@
 describe('POST /tasks', () => {
-
     beforeEach(function () {
         cy.fixture('tasks/post').then(function (tasks) {
             this.tasks = tasks
@@ -7,7 +6,6 @@ describe('POST /tasks', () => {
     })
 
     context('register a new task', function () {
-
         before(function () {
             cy.purgeQueueMessages()
                 .then(response => {
