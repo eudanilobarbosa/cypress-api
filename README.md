@@ -6,6 +6,9 @@ Repositório do projeto de testes de API em Cypress para o aplicativo web de dem
 - Node.js
 - Cypress
 - Javascript
+- API REST
+- MongoDB
+- RabbitMQ
 
 ## 🤖 Rodando
 
