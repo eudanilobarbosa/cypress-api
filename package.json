@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/eudanilobarbosa/cypress-api#readme",
   "devDependencies": {
-    "cypress": "^12.12.0"
+    "cypress": "^12.12.0",
+    "mongodb": "^6.5.0"
   }
 }
