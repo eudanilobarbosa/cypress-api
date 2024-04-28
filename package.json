@@ -1,0 +1,29 @@
+{
+  "name": "mark85-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API do Mark85",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eudanilobarbosa/cypress-api.git"
+  },
+  "keywords": [
+    "Cypress",
+    "E2E",
+    "API",
+    "MongoDB",
+    "RabbitMQ"
+  ],
+  "author": "Danilo S. Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eudanilobarbosa/cypress-api/issues"
+  },
+  "homepage": "https://github.com/eudanilobarbosa/cypress-api#readme",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}
