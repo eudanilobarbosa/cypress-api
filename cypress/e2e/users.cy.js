@@ -14,6 +14,28 @@ describe('POST /users', () => {
         expect(response.status).to.eq(200)
       })
   })
+
+  it('duplicate email', () => {
+
+    const user = {
+      name: 'James Gunn',
+      email: 'james@hotmail.com',
+      password: 'pwd123'
+    }
+
+    cy.task('deleteUser', user.email)
+
+    cy.postUser(user)
+
+    cy.postUser(user)
+      .then(response => {
+
+        const { message } = response.body
+
+        expect(response.status).to.eq(409)
+        expect(message).to.eq('Duplicated email!')
+      })
+  })
 })
 
 
