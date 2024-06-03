@@ -29,6 +29,11 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://localhost:3333',
     video: false,
-    screenshotOnRunFailure: false
+    screenshotOnRunFailure: false,
+    env: {
+      amqpHost: 'https://porpoise.rmq.cloudamqp.com/api/queues/fsbjfytv',
+      amqpQueue: 'tasks',
+      amqpToken: 'Basic ZnNiamZ5dHY6aU5sTHNxQVJNbnJSNl9qSG9ZU2dnaGdxMzYxTFloaG8='
+    }
   },
 });

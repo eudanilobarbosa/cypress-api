@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands/ampq'
+import './commands/amqp'
 import './commands/services'
 
 import 'cypress-plugin-api'
