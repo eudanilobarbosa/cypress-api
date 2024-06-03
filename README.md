@@ -232,21 +232,44 @@ npx allure serve
 ## Funcionalidades Testadas
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
-#### home
+#### tasks > delete
 
-* [x] webapp deve estar online
+* [x] remove a task
+* [x] task not found
 
-#### tarefas > cadastro
+#### tasks > get
 
-* [x] deve cadastrar uma nova tarefa
-* [x] não deve permitir tarefa duplicada
-* [x] campo obrigatório
+* [x] get my tasks
+* [x] get unique task
+* [x] task not found
 
-#### tarefas > atualização
+#### tasks > post > context > register a new task
 
-* [x] deve concluir uma tarefa
+* [x] post task
 
-#### tarefas > exclusão
+#### tasks > post
 
-* [x] deve remover uma tarefa
+* [x] duplicate task
+
+#### tasks > put
+
+* [x] update task to done
+* [x] task not found
+  
+#### sessions
+
+* [x] user session
+* [x] invalid password
+* [x] email not found
+
+#### users
+
+* [x] register a new user
+* [x] duplicate email
+
+#### users > context > required fields
+
+* [x] name is required
+* [x] email is required
+* [x] password is required
 
