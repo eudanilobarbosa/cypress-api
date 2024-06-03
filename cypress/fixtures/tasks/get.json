@@ -7,20 +7,20 @@
         },
         "tasks": [
             {
-                "name": "Estudar Javascript",
+                "name": "Estud4r Javascript",
                 "tags": [
                     "qax"
                 ]
             },
             {
-                "name": "Ler um livro de astronomia",
+                "name": "Estud4r Typerscript",
                 "tags": [
-                    "spacex",
-                    "falcon"
+                    "typescript",
+                    "ts"
                 ]
             },
             {
-                "name": "Estudar Cypress",
+                "name": "Estud4r Cypress",
                 "tags": [
                     "cypress",
                     "javascript",
