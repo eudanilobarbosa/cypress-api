@@ -28,5 +28,30 @@
                 ]
             }
         ]
+    },
+    "unique": {
+        "user": {
+            "name": "Tony Start",
+            "email": "tony@stark.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Construir a Mark87",
+            "tags": [
+                "ark",
+                "nanotech",
+                "friday"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Bruce Banner",
+            "email": "hulk@stark.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Construir uma máquina de radiação gama"
+        }
     }
 }
